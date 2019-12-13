@@ -12,7 +12,6 @@ export default {
     
   }
 }
-// fetch.get("/blog-web-app/package.json");
 
 </script>
 

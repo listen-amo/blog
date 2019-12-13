@@ -4,7 +4,12 @@ module.exports = {
     outputDir: "./dist/",
     configureWebpack: {
         resolve: {
-
+            alias: {
+                "@css": "@/assets/css",
+                "@functional": "@/components/functional/",
+                "@views": "@/components/views/",
+                "@Utils": "@/script/utils.js"
+            }
         }
     },
     devServer: {
